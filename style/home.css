@@ -64,14 +64,15 @@
 
 .all-projects{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
 }
 
 .project{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 1.25em 0;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.67);
     border: 2px var(--color) solid;
     border-radius: 25px;
     background-color: rgba(95, 158, 160, 0.2);
